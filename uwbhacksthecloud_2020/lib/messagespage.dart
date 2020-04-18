@@ -15,6 +15,35 @@ class _MessagePageState extends State<MessagesPage>{
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+          appBar: AppBar(
+            elevation: 0.0,
+            backgroundColor: Colors.white,
+            leading: Padding(
+              padding: EdgeInsets.only(left: 12),
+              child: IconButton(
+                icon: Icon(Icons.arrow_back, color: Colors.black),
+                onPressed: () {
+                  Navigator.pop(context);
+                },
+              ),
+            ),
+            title: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children:<Widget>[
+                  Icon(Icons.mail, color: Colors.black),
+                  Text(' Messages', style: TextStyle(color: Colors.black))
+                ]
+            ),
+            actions: <Widget>[
+              IconButton(
+                icon: Icon(Icons.search, color: Colors.black),
+                onPressed: () {
+                  // refresh
+                },
+              ),
+            ],
+
+          ),
         body: StreamBuilder(
           stream: databaseReference.collection('projects').snapshots(),
           builder: (context, snapshot) {
@@ -40,6 +69,12 @@ Widget _buildMessagesList(BuildContext context, DocumentSnapshot document) {
     elevation: 4.0,
 
     child: ListTile(
+//      trailing: IconButton(
+//        icon: Icon(Icons.restore_from_trash, color: Colors.black),
+//        onPressed: () {
+//          // refresh
+//        },
+//      ),
       leading: new Container(
           width: 60,
           height: 60,
@@ -48,16 +83,16 @@ Widget _buildMessagesList(BuildContext context, DocumentSnapshot document) {
               image: new DecorationImage(
                   fit: BoxFit.fill,
                   image: new NetworkImage(
-                      "https://media-exp1.licdn.com/dms/image/C5603AQGpUBQcBTCWlg/profile-displayphoto-shrink_200_200/0?e=1592438400&v=beta&t=LFe2mDavF2qPsyTzaMiI4aoxfFTrOsxWNfQjBTF2UMI")
+                      document['url'])
               )
           )),
       title: Text(document['project owner']),
       subtitle: Text(document['title']),
       onTap: () {
-        // some stuff
+        // stuff
       },
       onLongPress: () {
-        // some other stuff
+        // stuff
       },
     ),
   );
