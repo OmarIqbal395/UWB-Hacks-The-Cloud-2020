@@ -6,92 +6,117 @@ class profilePage extends StatefulWidget {
 }
 
 class profilePageState extends State<profilePage> {
+  var _name = 'Quam Nghiem';
+  var _quote = 'Will Code For Money';
+  var _language = 'C#, Java, C++, Javascript';
+
+  createPopUp(BuildContext context) {
+    TextEditingController newName = TextEditingController();
+    TextEditingController newQuote = TextEditingController();
+    TextEditingController newLanguage = TextEditingController();
+
+    return showDialog(
+        context: context,
+        builder: (context) {
+          return AlertDialog(
+            title: Text("Your new information!"),
+            content: SingleChildScrollView(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: <Widget>[
+                  TextField(
+                    decoration: InputDecoration(hintText: 'Enter name'),
+                    controller: newName,
+                  ),
+                  TextField(
+                    decoration: InputDecoration(hintText: 'Enter quote'),
+                    controller: newQuote,
+                  )
+                ],
+              ),
+            ),
+            actions: <Widget>[
+              MaterialButton(
+                elevation: 5.0,
+                child: Text('Submit'),
+                onPressed: () {
+                  if (newName.text.toString().isNotEmpty) {
+                    _name = newName.text.toString();
+                  }
+                  if (newQuote.text.toString().isNotEmpty) {
+                    _quote = newQuote.text.toString();
+                  }
+                  Navigator.of(context).pop();
+                },
+              )
+            ],
+          );
+        });
+  }
+
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-        body: new Stack(
-      children: <Widget>[
-        Container(
-          height: double.infinity,
-          width: double.infinity,
-          color: Colors.black54,
-        ),
-        ClipPath(
-          child: Container(color: Colors.black),
-          clipper: getClipper(),
-        ),
-        Positioned(
-            width: MediaQuery.of(context).size.width,
-            top: MediaQuery.of(context).size.height / 8,
-            child: Column(
-              children: <Widget>[
-                Container(
-                    width: 150.0,
-                    height: 150.0,
-                    decoration: BoxDecoration(
-                        color: Colors.white,
-                        image: DecorationImage(
-                            image: NetworkImage(
-                                'https://pbs.twimg.com/profile_images/706187387290963969/85luv8tB_400x400.jpg'),
-                            fit: BoxFit.cover),
-                        borderRadius: BorderRadius.all(Radius.circular(75.0)),
-                        boxShadow: [
-                          BoxShadow(blurRadius: 5.0, color: Colors.black)
-                        ])),
-                SizedBox(height: 40.0),
-                Text(
-                  'Anakin Skywalker',
-                  style: TextStyle(fontSize: 30.0, fontWeight: FontWeight.bold),
-                ),
-                SizedBox(height: 15.0),
-                Text(
-                  'Choking thots since the Clone War',
-                  style: TextStyle(fontSize: 17.0, fontStyle: FontStyle.italic),
-                ),
-                SizedBox(height: 25.0),
-                Container(
-                    height: 30.0,
-                    width: 95.0,
-                    child: Material(
-                      borderRadius: BorderRadius.circular(20.0),
-                      shadowColor: Colors.greenAccent,
-                      color: Colors.green,
-                      elevation: 7.0,
-                      child: GestureDetector(
-                        onTap: () {},
-                        child: Center(
-                          child: Text(
-                            'Edit Name',
-                            style: TextStyle(
-                                color: Colors.white, fontFamily: 'Montserrat'),
-                          ),
-                        ),
-                      ),
-                    )),
-                SizedBox(height: 25.0),
-                Container(
-                    height: 30.0,
-                    width: 95.0,
-                    child: Material(
-                      borderRadius: BorderRadius.circular(20.0),
-                      shadowColor: Colors.redAccent,
-                      color: Colors.red,
-                      elevation: 7.0,
-                      child: GestureDetector(
-                        onTap: () {},
-                        child: Center(
-                          child: Text(
-                            'Log out',
-                            style: TextStyle(
-                                color: Colors.white, fontFamily: 'Montserrat'),
-                          ),
-                        ),
-                      ),
-                    ))
-              ],
-            ))
-      ],
-    ));
+      body: new Stack(
+        children: <Widget>[
+          Container(
+            height: double.infinity,
+            width: double.infinity,
+            color: Colors.black54,
+          ),
+          ClipPath(
+            child: Container(color: Colors.black),
+            clipper: getClipper(),
+          ),
+          Positioned(
+              width: MediaQuery.of(context).size.width,
+              top: MediaQuery.of(context).size.height / 8,
+              child: Column(
+                children: <Widget>[
+                  Container(
+                      width: 150.0,
+                      height: 150.0,
+                      decoration: BoxDecoration(
+                          color: Colors.white,
+                          image: DecorationImage(
+                              image: NetworkImage(
+                                  'https://pbs.twimg.com/profile_images/706187387290963969/85luv8tB_400x400.jpg'),
+                              fit: BoxFit.cover),
+                          borderRadius: BorderRadius.all(Radius.circular(75.0)),
+                          boxShadow: [
+                            BoxShadow(blurRadius: 5.0, color: Colors.black)
+                          ])),
+                  SizedBox(height: 40.0),
+                  Text(
+                    _name,
+                    style:
+                        TextStyle(fontSize: 30.0, fontWeight: FontWeight.bold),
+                  ),
+                  SizedBox(height: 15.0),
+                  Text(
+                    _quote,
+                    style:
+                        TextStyle(fontSize: 17.0, fontStyle: FontStyle.italic),
+                  ),
+                  SizedBox(height: 15.0),
+                  Text(
+                    _language,
+                    style:
+                        TextStyle(fontSize: 17.0, fontStyle: FontStyle.italic),
+                  )
+                ],
+              ))
+        ],
+      ),
+      floatingActionButton: FloatingActionButton(
+        backgroundColor: Colors.deepOrangeAccent,
+        onPressed: () => setState(() {
+          createPopUp(context);
+        }),
+        child: Icon(Icons.edit),
+      ),
+    );
   }
 }
 

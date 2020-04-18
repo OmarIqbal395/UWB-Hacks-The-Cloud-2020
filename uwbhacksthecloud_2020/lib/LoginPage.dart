@@ -1,37 +1,95 @@
-import 'package:flutter/material.dart';
+import'package:flutter/material.dart';
 import 'auth.dart';
+import 'homepage.dart';
+import 'globals.dart';
 
-class LoginPage extends StatefulWidget {
+class LoginPage extends StatefulWidget{
   @override
   _LoginPageState createState() => _LoginPageState();
 }
 
-class _LoginPageState extends State<LoginPage> {
+
+Color backgroundColor = Color(0xFF242424);
+Color appBarColor = Color(0xFF1B1B1B);
+Color detailColor = Color(0xFFE040FB);
+
+class _LoginPageState extends State<LoginPage>{
+
   @override
-  // Gradient Piece of Shit
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Stack(
-        children: <Widget>[
-          Container(
-            height: double.infinity,
-            width: double.infinity,
-            decoration: BoxDecoration(
-              gradient: LinearGradient(
-                begin: Alignment.topCenter,
-                end: Alignment.bottomCenter,
-                colors: [
-                  Color(0xFF73AEF5),
-                  Color(0xFF61A4F1),
-                  Color(0xFF478DE0),
-                  Color(0xFF398AE5),
-                ],
-                stops: [0.1, 0.4, 0.7, 0.9],
-              ),
-            ),
+      backgroundColor: Colors.deepOrangeAccent,
+      body: Container(
+        color: Colors.deepOrangeAccent,
+        child: Center(
+          child: Column(
+            mainAxisSize: MainAxisSize.max,
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              Image(image: AssetImage("lib/assets/images/Logo.png"), width: 250.0, height: 250.0,),
+              //FlutterLogo(size: 150),
+              SizedBox(height: 30),
+              _signInButton(),
+            ],
           ),
-        ],
+        ),
       ),
     );
   }
+
+  // calls the method from sign_in.dart to bring up prompt to sign in with google and gain credentials
+  Widget _signInButton(){
+    return OutlineButton(
+      splashColor: Colors.grey,
+      onPressed: () {
+        print("start of sign in");
+        authService.googleSignIn().whenComplete(() {
+          print("end of sign in");
+          Navigator.pop(context);
+          Navigator.of(context).push(
+            MaterialPageRoute(
+              builder: (context) {
+                createRecord();
+                return HomePage();
+              },
+            ),
+          );
+        });
+      },
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(40)),
+      highlightElevation: 0,
+      borderSide: BorderSide(color: Colors.black),
+      child: Padding(
+        padding: const EdgeInsets.fromLTRB(0, 10, 0, 10),
+        child: Row(
+          mainAxisSize: MainAxisSize.min,
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            Image(image: AssetImage("lib/assets/images/google_logo.png"), height: 30.0),
+            Padding(
+              padding: const EdgeInsets.only(left: 10),
+              child: Text(
+                'Sign in with Google',
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.black,
+                ),
+              ),
+            )
+          ],
+        ),
+      ),
+    );
+  }
+
+  void createRecord() async {
+    await databaseReference.collection("books")
+        .document("1")
+        .setData({
+      'title': 'Mastering Flutter',
+      'description': 'Programming Guide for Dart'
+    });
+
+  }
+
 }
