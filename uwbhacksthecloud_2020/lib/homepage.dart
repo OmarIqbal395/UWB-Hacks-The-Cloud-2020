@@ -112,9 +112,14 @@ class HomePageState extends State<HomePage> with SingleTickerProviderStateMixin 
                                   fit: BoxFit.cover)),
                         ),
                         Positioned(
-                          top: 320.0,
-                          left: 15.0,
+                          top: 110.0,
+                          //bottom: 60.0,
+                          //top: 300.0,
+                          //left: 0.0,
+                          //right: 0.0,
+                          //padding: EdgeInsets.fromLTRB(0.0, 80.0, 0.0, 0.0),
                           child: Container(
+                            //padding: EdgeInsets.fromLTRB(0.0, 0.0, 100.0, 0.0),
                             transform: Matrix4.translationValues(0.0, infoAnimation.value * devHeight, 0.0),
                             width: 270.0,
                             height: 90.0,
@@ -128,7 +133,7 @@ class HomePageState extends State<HomePage> with SingleTickerProviderStateMixin 
                                       spreadRadius: 2.0)
                                 ]),
                             child: Container(
-                              padding: EdgeInsets.all(7.0),
+                              //padding: EdgeInsets.fromLTRB(0.0, 80.0, 0.0, 0.0),
                               child: Column(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: <Widget>[
