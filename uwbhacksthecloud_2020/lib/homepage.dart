@@ -29,7 +29,6 @@ class _HomepageState extends State<Homepage>{
           actions: <Widget>[
             Padding(
               padding: EdgeInsets.only(right: 8.0),
-              child: FlutterLogo(
                 colors: Colors.blue,
                 size: 40.0,
 
