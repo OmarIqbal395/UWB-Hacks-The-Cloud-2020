@@ -73,40 +73,40 @@ class HomePageState extends State<HomePage> with SingleTickerProviderStateMixin 
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 Container(
-                    padding: EdgeInsets.fromLTRB(10.0, 10.0, 20.0, 40.0),
+                    padding: EdgeInsets.fromLTRB(0.0, 40.0, 20.0, 40.0),
                     child: Stack(
                       overflow: Overflow.visible,
                       children: <Widget>[
-                        Positioned(
-                          //left: 20.0,
-                          child: Container(
-                            transform: Matrix4.translationValues(0.0, delayedCardAnimation.value * devHeight, 0.0),
-                            width: 260.0,
-                            height: 400.0,
-                            decoration: BoxDecoration(
-                                color: Colors.amber,
-                                borderRadius: BorderRadius.circular(10.0)),
-                          ),
-                        ),
-                        Positioned(
-
-                          left: 10.0,
-                          child: Container(
-                            transform: Matrix4.translationValues(0.0, cardAnimation.value * devHeight, 0.0),
-                            width: 280.0,
-                            height: 400.0,
-                            decoration: BoxDecoration(
-                                color: Colors.blue,
-                                borderRadius: BorderRadius.circular(10.0)),
-                          ),
-                        ),
+//                        Positioned(
+//                          left: 20.0,
+//                          child: Container(
+//                            transform: Matrix4.translationValues(0.0, delayedCardAnimation.value * devHeight, 0.0),
+//                            width: 260.0,
+//                            height: 400.0,
+//                            decoration: BoxDecoration(
+//                                color: Colors.amber,
+//                                borderRadius: BorderRadius.circular(10.0)),
+//                          ),
+//                        ),
+//                        Positioned(
+//
+//                          left: 10.0,
+//                          child: Container(
+//                            transform: Matrix4.translationValues(0.0, cardAnimation.value * devHeight, 0.0),
+//                            width: 280.0,
+//                            height: 400.0,
+//                            decoration: BoxDecoration(
+//                                color: Colors.blue,
+//                                borderRadius: BorderRadius.circular(10.0)),
+//                          ),
+//                        ),
                         Container(
                           width: 100.0,
-                          height: 100.0,
+                          height: 120.0,
                           decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(10.0),
                               image: DecorationImage(
-                                  image: AssetImage("lib/assets/images/omar.png"),
+                                  image: AssetImage("lib/assets/images/picklerick.jpg"),
                                   fit: BoxFit.cover)),
                         ),
                         Positioned(
@@ -126,7 +126,7 @@ class HomePageState extends State<HomePage> with SingleTickerProviderStateMixin 
                                       spreadRadius: 2.0)
                                 ]),
                             child: Container(
-                              padding: EdgeInsets.all(220.0),
+                              padding: EdgeInsets.all(7.0),
                               child: Column(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: <Widget>[
