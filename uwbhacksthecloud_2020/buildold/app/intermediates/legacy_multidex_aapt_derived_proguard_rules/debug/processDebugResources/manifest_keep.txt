@@ -1,0 +1,2 @@
+# Referenced at C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\app\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:26
+-keep class io.flutter.app.FlutterApplication { <init>(...); }
