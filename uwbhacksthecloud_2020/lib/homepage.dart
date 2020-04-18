@@ -41,11 +41,12 @@ class HomePageState extends State<HomePage> with SingleTickerProviderStateMixin 
         animation: controller,
         builder: (BuildContext context, Widget child) {
           return Scaffold(
+            resizeToAvoidBottomPadding: false,
             appBar: new AppBar(
               backgroundColor: Colors.white,
               elevation: 0.0,
               leading: IconButton(
-                icon: Icon(Icons.arrow_back_ios),
+                icon: Icon(Icons.settings),
                 iconSize: 20.0,
                 color: Colors.black,
                 onPressed: () {},
@@ -73,7 +74,7 @@ class HomePageState extends State<HomePage> with SingleTickerProviderStateMixin 
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 Container(
-                    padding: EdgeInsets.fromLTRB(0.0, 40.0, 20.0, 40.0),
+                    padding: EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 90.0),
                     child: Stack(
                       overflow: Overflow.visible,
                       children: <Widget>[
@@ -106,7 +107,8 @@ class HomePageState extends State<HomePage> with SingleTickerProviderStateMixin 
                           decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(10.0),
                               image: DecorationImage(
-                                  image: AssetImage("lib/assets/images/picklerick.jpg"),
+                                  image: AssetImage("lib/assets/images/picklerick.jpg"), //replace with network image later
+
                                   fit: BoxFit.cover)),
                         ),
                         Positioned(
