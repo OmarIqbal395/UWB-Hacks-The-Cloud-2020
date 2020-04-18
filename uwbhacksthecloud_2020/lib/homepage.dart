@@ -46,18 +46,26 @@ class HomePageState extends State<HomePage> with SingleTickerProviderStateMixin 
               elevation: 0.0,
               leading: IconButton(
                 icon: Icon(Icons.arrow_back_ios),
+                iconSize: 20.0,
                 color: Colors.black,
                 onPressed: () {},
               ),
-              title: new Text('Virgins',
+              title: new Text('Developers',
+                  textAlign: TextAlign.center,
                   style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontWeight: FontWeight.bold,
+                      fontSize: 20.0,
                       color: Colors.black)),
               actions: <Widget>[
                 Padding(
                   padding: EdgeInsets.only(right: 8.0),
-                  child: FlutterLogo(colors: Colors.blue, size: 40.0),
+                  child: IconButton(
+                    icon: Icon(Icons.chat_bubble),
+                    iconSize: 20.0,
+                    color: Colors.black,
+                    onPressed: () {},
+                  )
                 )
               ],
             ),
@@ -65,12 +73,12 @@ class HomePageState extends State<HomePage> with SingleTickerProviderStateMixin 
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 Container(
-                    padding: EdgeInsets.fromLTRB(20.0, 40.0, 20.0, 40.0),
+                    padding: EdgeInsets.fromLTRB(10.0, 10.0, 20.0, 40.0),
                     child: Stack(
                       overflow: Overflow.visible,
                       children: <Widget>[
                         Positioned(
-                          left: 20.0,
+                          //left: 20.0,
                           child: Container(
                             transform: Matrix4.translationValues(0.0, delayedCardAnimation.value * devHeight, 0.0),
                             width: 260.0,
@@ -93,12 +101,12 @@ class HomePageState extends State<HomePage> with SingleTickerProviderStateMixin 
                           ),
                         ),
                         Container(
-                          width: 300.0,
-                          height: 400.0,
+                          width: 100.0,
+                          height: 100.0,
                           decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(10.0),
                               image: DecorationImage(
-                                  image: AssetImage('assets/girls.jpeg'),
+                                  image: AssetImage("lib/assets/images/omar.png"),
                                   fit: BoxFit.cover)),
                         ),
                         Positioned(
@@ -118,30 +126,25 @@ class HomePageState extends State<HomePage> with SingleTickerProviderStateMixin 
                                       spreadRadius: 2.0)
                                 ]),
                             child: Container(
-                              padding: EdgeInsets.all(7.0),
+                              padding: EdgeInsets.all(220.0),
                               child: Column(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: <Widget>[
                                   Row(
                                     children: <Widget>[
                                       Text(
-                                        'Kayla',
+                                        'Simp God',
                                         style: TextStyle(
                                             fontFamily: 'Montserrat',
                                             fontSize: 20.0),
                                       ),
                                       SizedBox(width: 4.0),
-                                      Image.asset(
-                                        'assets/simbolo.png',
-                                        height: 20.0,
-                                        width: 20.0,
-                                      ),
                                       SizedBox(width: 110.0),
                                       Text(
-                                        '5.8km',
+                                        'C++, Java, Python, C#',
                                         style: TextStyle(
                                             fontFamily: 'Montserrat',
-                                            fontSize: 20.0,
+                                            fontSize: 15.0,
                                             color: Colors.grey),
                                       ),
                                     ],
@@ -150,7 +153,7 @@ class HomePageState extends State<HomePage> with SingleTickerProviderStateMixin 
                                   Row(
                                     children: <Widget>[
                                       Text(
-                                        'Fate is wonderful.',
+                                        'ea sports it\'s in the game.',
                                         style: TextStyle(
                                             fontFamily: 'Montserrat',
                                             fontSize: 15.0,
