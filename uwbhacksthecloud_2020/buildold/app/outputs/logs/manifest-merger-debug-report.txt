@@ -1,0 +1,552 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\main\AndroidManifest.xml:1:1-33:12
+INJECTED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\main\AndroidManifest.xml:1:1-33:12
+INJECTED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\main\AndroidManifest.xml:1:1-33:12
+INJECTED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\main\AndroidManifest.xml:1:1-33:12
+MERGED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\main\AndroidManifest.xml:1:1-33:12
+MERGED from [:firebase_analytics] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\firebase_analytics\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-19:12
+MERGED from [:firebase_auth] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\firebase_auth\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-15:12
+MERGED from [:cloud_firestore] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\cloud_firestore\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_core] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\firebase_core\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_core_web] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\firebase_core_web\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-7:12
+MERGED from [:google_sign_in] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\google_sign_in\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-9:12
+MERGED from [:google_sign_in_web] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\google_sign_in_web\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\multidex-2.0.0.aar\83c2832906b901ad93dc23f09ae4b39a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-analytics:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-analytics-17.2.2.aar\e92c3abe942b9a5bb75343ebfc339569\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-17.2.2.aar\c73c3616bddea49ef3e60c7fd7c51b2a\AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-17.2.2.aar\2c021320e4ae53803763b4a9d744a461\AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-17.2.2.aar\4f1cb321ef2d159e50eb4356c86b35f8\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-17.2.2.aar\566751d83e85d5d69f9eb22759057f11\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-iid-20.0.2.aar\2900f79c1539be52869aa85a082f8e2c\AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-stats-17.0.0.aar\360786a411ba47f5ea002173d23b41f8\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-17.0.0.aar\3552ed7128a34a2229d7960a61127ca2\AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-firestore-21.3.0.aar\b995980af0512abbbae11403f0de4e2c\AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-18.0.0.aar\36c6d009f5535cca855996d42a3d5b55\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-19.3.0.aar\7d6915a26f38a5b689d7b40eaf4a96dd\AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-play-services-auth-16.0.1.aar\2e49c311ec7490ac7c273f4d10e37d87\AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-17.2.2.aar\5851389b877fcf51c2e71c97ee1c0315\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-17.2.2.aar\b99e7c8650b375566d1566734f73942f\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\c3cc6b678ee89636f17b36205faba6fb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-play-services-auth-api-phone-16.0.0.aar\d1f0dd2b8e0a98bd33ea19d96e43e0aa\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-play-services-auth-base-16.0.0.aar\95d4a5caf6810e2464f9ecda5db04ecf\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-17.0.0.aar\c868a17405217bdc3811c1de14d9e6f2\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-base-17.0.0.aar\b2cd2b65aa7fa0b04f19b0a0e885fc22\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-tasks-17.0.0.aar\209370aa7d8d7e0e58862b8368ce3115\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-18.0.0.aar\b414e5fe55ef6df93f5b35a505b8db63\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-17.0.0.aar\d33e16ed3a892e8b4721e748f246ff8f\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-17.0.0.aar\69ede8f9484e78bbb2e9f23197ac1142\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0.aar\bdd069e37b2923b3bbb5913f00561750\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\7ac38eda1f6349eb9a8a4f1a76357a18\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\48ddbe538305e0f7242dd1d5694dbf1a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\6016fa063e6bb7579e638124dd911e07\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\36d555d2a84a858db9fc0c3c0a75b1b7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\7630c2eaa770c0ab2a03c9c547851d00\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\c055b8fc12fa078fafdbdb9f379ae117\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\66e31f0364021496d4fb8f6094ea2c02\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\af2ebc7b7d5fe1c3f3874f354a520139\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\2ba89538e097843919eabfca35334e23\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\cbd92766905b8b8bd30e6ed08305ca99\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\71decad2b6c8c2980f9da2d5c48776f0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\1ecb1e81be8cc63c2f9647003c3d61b2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\7055e132a087175e7e8c1ce78a75fe20\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\dbe0fd4854e10f96213049e06b9408cb\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\f8693b4348b558dab72a6a14cd08a48a\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-components-16.0.0.aar\729968bbeece7614074a63f50cb8b12e\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\90ebd5996e95a03fb39f976d41fef549\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\c72eadd7482cfc1a948ecb97409f1cde\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\27674923f08526df821d8aa2736537d0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\bd97b22cbaad271ce36fba89cf777be1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\7c492a9971c8f5321ff46d7c16be10ee\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\da56982a3181cc2ca5067f614ec86c80\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\29846a1407653b760412c32a9cea6631\AndroidManifest.xml:17:1-22:12
+MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\grpc-android-1.21.0.aar\11bc33e946557f411349aa31ef2dde87\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-database-collection-17.0.0.aar\3d28562ad488d0548834d330e9bbc0bd\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\protolite-well-known-types-17.0.0.aar\95a9243cae01f915b3ff7643b6529485\AndroidManifest.xml:2:1-11:12
+INJECTED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\main\AndroidManifest.xml:2:5-48
+		INJECTED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\debug\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\main\AndroidManifest.xml:1:1-33:12
+		INJECTED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\debug\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\main\AndroidManifest.xml:1:1-33:12
+		INJECTED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\debug\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\main\AndroidManifest.xml:1:11-69
+application
+ADDED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\main\AndroidManifest.xml:9:5-32:19
+MERGED from [:firebase_analytics] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\firebase_analytics\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-17:19
+MERGED from [:firebase_analytics] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\firebase_analytics\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-17:19
+MERGED from [:firebase_auth] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\firebase_auth\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_auth] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\firebase_auth\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\cloud_firestore\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\cloud_firestore\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\firebase_core\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\firebase_core\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-analytics:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-analytics-17.2.2.aar\e92c3abe942b9a5bb75343ebfc339569\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-analytics-17.2.2.aar\e92c3abe942b9a5bb75343ebfc339569\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-17.2.2.aar\c73c3616bddea49ef3e60c7fd7c51b2a\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-17.2.2.aar\c73c3616bddea49ef3e60c7fd7c51b2a\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-17.2.2.aar\2c021320e4ae53803763b4a9d744a461\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-17.2.2.aar\2c021320e4ae53803763b4a9d744a461\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-17.2.2.aar\4f1cb321ef2d159e50eb4356c86b35f8\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-17.2.2.aar\4f1cb321ef2d159e50eb4356c86b35f8\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-17.2.2.aar\566751d83e85d5d69f9eb22759057f11\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-17.2.2.aar\566751d83e85d5d69f9eb22759057f11\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-iid-20.0.2.aar\2900f79c1539be52869aa85a082f8e2c\AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-iid-20.0.2.aar\2900f79c1539be52869aa85a082f8e2c\AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-stats-17.0.0.aar\360786a411ba47f5ea002173d23b41f8\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-stats-17.0.0.aar\360786a411ba47f5ea002173d23b41f8\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-17.0.0.aar\3552ed7128a34a2229d7960a61127ca2\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-17.0.0.aar\3552ed7128a34a2229d7960a61127ca2\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-firestore-21.3.0.aar\b995980af0512abbbae11403f0de4e2c\AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-firestore-21.3.0.aar\b995980af0512abbbae11403f0de4e2c\AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-18.0.0.aar\36c6d009f5535cca855996d42a3d5b55\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-18.0.0.aar\36c6d009f5535cca855996d42a3d5b55\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-19.3.0.aar\7d6915a26f38a5b689d7b40eaf4a96dd\AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-19.3.0.aar\7d6915a26f38a5b689d7b40eaf4a96dd\AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-play-services-auth-16.0.1.aar\2e49c311ec7490ac7c273f4d10e37d87\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-play-services-auth-16.0.1.aar\2e49c311ec7490ac7c273f4d10e37d87\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-17.2.2.aar\b99e7c8650b375566d1566734f73942f\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-17.2.2.aar\b99e7c8650b375566d1566734f73942f\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-17.0.0.aar\c868a17405217bdc3811c1de14d9e6f2\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-17.0.0.aar\c868a17405217bdc3811c1de14d9e6f2\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-base-17.0.0.aar\b2cd2b65aa7fa0b04f19b0a0e885fc22\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-base-17.0.0.aar\b2cd2b65aa7fa0b04f19b0a0e885fc22\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-tasks-17.0.0.aar\209370aa7d8d7e0e58862b8368ce3115\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-tasks-17.0.0.aar\209370aa7d8d7e0e58862b8368ce3115\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-18.0.0.aar\b414e5fe55ef6df93f5b35a505b8db63\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-18.0.0.aar\b414e5fe55ef6df93f5b35a505b8db63\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-17.0.0.aar\d33e16ed3a892e8b4721e748f246ff8f\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-17.0.0.aar\d33e16ed3a892e8b4721e748f246ff8f\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-17.0.0.aar\69ede8f9484e78bbb2e9f23197ac1142\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-17.0.0.aar\69ede8f9484e78bbb2e9f23197ac1142\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\71decad2b6c8c2980f9da2d5c48776f0\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\71decad2b6c8c2980f9da2d5c48776f0\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\f8693b4348b558dab72a6a14cd08a48a\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\f8693b4348b558dab72a6a14cd08a48a\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\71decad2b6c8c2980f9da2d5c48776f0\AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\main\AndroidManifest.xml:11:9-46
+	android:icon
+		ADDED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\main\AndroidManifest.xml:12:9-43
+	android:name
+		ADDED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\main\AndroidManifest.xml:10:9-57
+activity#com.example.uwbhacksthecloud_2020.MainActivity
+ADDED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\main\AndroidManifest.xml:13:9-31:20
+	android:launchMode
+		ADDED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\main\AndroidManifest.xml:15:13-43
+	android:hardwareAccelerated
+		ADDED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\main\AndroidManifest.xml:18:13-47
+	android:windowSoftInputMode
+		ADDED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\main\AndroidManifest.xml:19:13-55
+	android:configChanges
+		ADDED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\main\AndroidManifest.xml:17:13-144
+	android:theme
+		ADDED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\main\AndroidManifest.xml:16:13-47
+	android:name
+		ADDED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\main\AndroidManifest.xml:14:13-41
+meta-data#io.flutter.app.android.SplashScreenUntilFirstFrame
+ADDED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\main\AndroidManifest.xml:24:13-26:40
+	android:value
+		ADDED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\main\AndroidManifest.xml:26:17-37
+	android:name
+		ADDED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\main\AndroidManifest.xml:25:17-82
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\main\AndroidManifest.xml:27:13-30:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\main\AndroidManifest.xml:28:17-68
+	android:name
+		ADDED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\main\AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\main\AndroidManifest.xml:29:17-76
+	android:name
+		ADDED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\main\AndroidManifest.xml:29:27-74
+uses-sdk
+INJECTED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\main\AndroidManifest.xml
+MERGED from [:firebase_analytics] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\firebase_analytics\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_analytics] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\firebase_analytics\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\firebase_auth\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\firebase_auth\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\cloud_firestore\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\cloud_firestore\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\firebase_core\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\firebase_core\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core_web] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\firebase_core_web\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core_web] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\firebase_core_web\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:google_sign_in] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\google_sign_in\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:google_sign_in] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\google_sign_in\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:google_sign_in_web] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\google_sign_in_web\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:google_sign_in_web] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\google_sign_in_web\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\multidex-2.0.0.aar\83c2832906b901ad93dc23f09ae4b39a\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\multidex-2.0.0.aar\83c2832906b901ad93dc23f09ae4b39a\AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-analytics:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-analytics-17.2.2.aar\e92c3abe942b9a5bb75343ebfc339569\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-analytics-17.2.2.aar\e92c3abe942b9a5bb75343ebfc339569\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-17.2.2.aar\c73c3616bddea49ef3e60c7fd7c51b2a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-17.2.2.aar\c73c3616bddea49ef3e60c7fd7c51b2a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-17.2.2.aar\2c021320e4ae53803763b4a9d744a461\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-17.2.2.aar\2c021320e4ae53803763b4a9d744a461\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-17.2.2.aar\4f1cb321ef2d159e50eb4356c86b35f8\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-17.2.2.aar\4f1cb321ef2d159e50eb4356c86b35f8\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-17.2.2.aar\566751d83e85d5d69f9eb22759057f11\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-17.2.2.aar\566751d83e85d5d69f9eb22759057f11\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-iid-20.0.2.aar\2900f79c1539be52869aa85a082f8e2c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-iid-20.0.2.aar\2900f79c1539be52869aa85a082f8e2c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-stats-17.0.0.aar\360786a411ba47f5ea002173d23b41f8\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-stats-17.0.0.aar\360786a411ba47f5ea002173d23b41f8\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-17.0.0.aar\3552ed7128a34a2229d7960a61127ca2\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-17.0.0.aar\3552ed7128a34a2229d7960a61127ca2\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-firestore-21.3.0.aar\b995980af0512abbbae11403f0de4e2c\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-firestore-21.3.0.aar\b995980af0512abbbae11403f0de4e2c\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-18.0.0.aar\36c6d009f5535cca855996d42a3d5b55\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-18.0.0.aar\36c6d009f5535cca855996d42a3d5b55\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-19.3.0.aar\7d6915a26f38a5b689d7b40eaf4a96dd\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-19.3.0.aar\7d6915a26f38a5b689d7b40eaf4a96dd\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-play-services-auth-16.0.1.aar\2e49c311ec7490ac7c273f4d10e37d87\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-play-services-auth-16.0.1.aar\2e49c311ec7490ac7c273f4d10e37d87\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-17.2.2.aar\5851389b877fcf51c2e71c97ee1c0315\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-17.2.2.aar\5851389b877fcf51c2e71c97ee1c0315\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-17.2.2.aar\b99e7c8650b375566d1566734f73942f\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-17.2.2.aar\b99e7c8650b375566d1566734f73942f\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\c3cc6b678ee89636f17b36205faba6fb\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\c3cc6b678ee89636f17b36205faba6fb\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-play-services-auth-api-phone-16.0.0.aar\d1f0dd2b8e0a98bd33ea19d96e43e0aa\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-play-services-auth-api-phone-16.0.0.aar\d1f0dd2b8e0a98bd33ea19d96e43e0aa\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-play-services-auth-base-16.0.0.aar\95d4a5caf6810e2464f9ecda5db04ecf\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-play-services-auth-base-16.0.0.aar\95d4a5caf6810e2464f9ecda5db04ecf\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-17.0.0.aar\c868a17405217bdc3811c1de14d9e6f2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-17.0.0.aar\c868a17405217bdc3811c1de14d9e6f2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-base-17.0.0.aar\b2cd2b65aa7fa0b04f19b0a0e885fc22\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-base-17.0.0.aar\b2cd2b65aa7fa0b04f19b0a0e885fc22\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-tasks-17.0.0.aar\209370aa7d8d7e0e58862b8368ce3115\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-tasks-17.0.0.aar\209370aa7d8d7e0e58862b8368ce3115\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-18.0.0.aar\b414e5fe55ef6df93f5b35a505b8db63\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-18.0.0.aar\b414e5fe55ef6df93f5b35a505b8db63\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-17.0.0.aar\d33e16ed3a892e8b4721e748f246ff8f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-17.0.0.aar\d33e16ed3a892e8b4721e748f246ff8f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-17.0.0.aar\69ede8f9484e78bbb2e9f23197ac1142\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-17.0.0.aar\69ede8f9484e78bbb2e9f23197ac1142\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0.aar\bdd069e37b2923b3bbb5913f00561750\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0.aar\bdd069e37b2923b3bbb5913f00561750\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\7ac38eda1f6349eb9a8a4f1a76357a18\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\7ac38eda1f6349eb9a8a4f1a76357a18\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\48ddbe538305e0f7242dd1d5694dbf1a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\48ddbe538305e0f7242dd1d5694dbf1a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\6016fa063e6bb7579e638124dd911e07\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\6016fa063e6bb7579e638124dd911e07\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\36d555d2a84a858db9fc0c3c0a75b1b7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\36d555d2a84a858db9fc0c3c0a75b1b7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\7630c2eaa770c0ab2a03c9c547851d00\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\7630c2eaa770c0ab2a03c9c547851d00\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\c055b8fc12fa078fafdbdb9f379ae117\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\c055b8fc12fa078fafdbdb9f379ae117\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\66e31f0364021496d4fb8f6094ea2c02\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\66e31f0364021496d4fb8f6094ea2c02\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\af2ebc7b7d5fe1c3f3874f354a520139\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\af2ebc7b7d5fe1c3f3874f354a520139\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\2ba89538e097843919eabfca35334e23\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\2ba89538e097843919eabfca35334e23\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\cbd92766905b8b8bd30e6ed08305ca99\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\cbd92766905b8b8bd30e6ed08305ca99\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\71decad2b6c8c2980f9da2d5c48776f0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\71decad2b6c8c2980f9da2d5c48776f0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\1ecb1e81be8cc63c2f9647003c3d61b2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\1ecb1e81be8cc63c2f9647003c3d61b2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\7055e132a087175e7e8c1ce78a75fe20\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\7055e132a087175e7e8c1ce78a75fe20\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\dbe0fd4854e10f96213049e06b9408cb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\dbe0fd4854e10f96213049e06b9408cb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\f8693b4348b558dab72a6a14cd08a48a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\f8693b4348b558dab72a6a14cd08a48a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-components-16.0.0.aar\729968bbeece7614074a63f50cb8b12e\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-components-16.0.0.aar\729968bbeece7614074a63f50cb8b12e\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\90ebd5996e95a03fb39f976d41fef549\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\90ebd5996e95a03fb39f976d41fef549\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\c72eadd7482cfc1a948ecb97409f1cde\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\c72eadd7482cfc1a948ecb97409f1cde\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\27674923f08526df821d8aa2736537d0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\27674923f08526df821d8aa2736537d0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\bd97b22cbaad271ce36fba89cf777be1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\bd97b22cbaad271ce36fba89cf777be1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\7c492a9971c8f5321ff46d7c16be10ee\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\7c492a9971c8f5321ff46d7c16be10ee\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\da56982a3181cc2ca5067f614ec86c80\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\da56982a3181cc2ca5067f614ec86c80\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\29846a1407653b760412c32a9cea6631\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\29846a1407653b760412c32a9cea6631\AndroidManifest.xml:20:5-44
+MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\grpc-android-1.21.0.aar\11bc33e946557f411349aa31ef2dde87\AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\grpc-android-1.21.0.aar\11bc33e946557f411349aa31ef2dde87\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-database-collection-17.0.0.aar\3d28562ad488d0548834d330e9bbc0bd\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-database-collection-17.0.0.aar\3d28562ad488d0548834d330e9bbc0bd\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\protolite-well-known-types-17.0.0.aar\95a9243cae01f915b3ff7643b6529485\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\protolite-well-known-types-17.0.0.aar\95a9243cae01f915b3ff7643b6529485\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\debug\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\debug\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\debug\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\debug\AndroidManifest.xml:6:5-66
+MERGED from [:firebase_analytics] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\firebase_analytics\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:8:5-67
+MERGED from [:firebase_analytics] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\firebase_analytics\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:8:5-67
+MERGED from [:google_sign_in] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\google_sign_in\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-67
+MERGED from [:google_sign_in] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\google_sign_in\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-17.2.2.aar\c73c3616bddea49ef3e60c7fd7c51b2a\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-17.2.2.aar\c73c3616bddea49ef3e60c7fd7c51b2a\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-17.2.2.aar\2c021320e4ae53803763b4a9d744a461\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-17.2.2.aar\2c021320e4ae53803763b4a9d744a461\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-17.2.2.aar\566751d83e85d5d69f9eb22759057f11\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-17.2.2.aar\566751d83e85d5d69f9eb22759057f11\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-iid-20.0.2.aar\2900f79c1539be52869aa85a082f8e2c\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-iid-20.0.2.aar\2900f79c1539be52869aa85a082f8e2c\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-firestore-21.3.0.aar\b995980af0512abbbae11403f0de4e2c\AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-firestore-21.3.0.aar\b995980af0512abbbae11403f0de4e2c\AndroidManifest.xml:14:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-17.2.2.aar\5851389b877fcf51c2e71c97ee1c0315\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-17.2.2.aar\5851389b877fcf51c2e71c97ee1c0315\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\android\app\src\debug\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:firebase_analytics] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\firebase_analytics\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-17.2.2.aar\c73c3616bddea49ef3e60c7fd7c51b2a\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-17.2.2.aar\c73c3616bddea49ef3e60c7fd7c51b2a\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-17.2.2.aar\2c021320e4ae53803763b4a9d744a461\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-17.2.2.aar\2c021320e4ae53803763b4a9d744a461\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-17.2.2.aar\566751d83e85d5d69f9eb22759057f11\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-17.2.2.aar\566751d83e85d5d69f9eb22759057f11\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-iid-20.0.2.aar\2900f79c1539be52869aa85a082f8e2c\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-iid-20.0.2.aar\2900f79c1539be52869aa85a082f8e2c\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-firestore-21.3.0.aar\b995980af0512abbbae11403f0de4e2c\AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-firestore-21.3.0.aar\b995980af0512abbbae11403f0de4e2c\AndroidManifest.xml:13:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-17.2.2.aar\5851389b877fcf51c2e71c97ee1c0315\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-17.2.2.aar\5851389b877fcf51c2e71c97ee1c0315\AndroidManifest.xml:24:5-79
+MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\grpc-android-1.21.0.aar\11bc33e946557f411349aa31ef2dde87\AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\grpc-android-1.21.0.aar\11bc33e946557f411349aa31ef2dde87\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [:firebase_analytics] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\firebase_analytics\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:firebase_analytics] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\firebase_analytics\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-17.2.2.aar\c73c3616bddea49ef3e60c7fd7c51b2a\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-17.2.2.aar\c73c3616bddea49ef3e60c7fd7c51b2a\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-17.2.2.aar\2c021320e4ae53803763b4a9d744a461\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-17.2.2.aar\2c021320e4ae53803763b4a9d744a461\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-17.2.2.aar\566751d83e85d5d69f9eb22759057f11\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-17.2.2.aar\566751d83e85d5d69f9eb22759057f11\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-iid-20.0.2.aar\2900f79c1539be52869aa85a082f8e2c\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-iid-20.0.2.aar\2900f79c1539be52869aa85a082f8e2c\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-17.2.2.aar\5851389b877fcf51c2e71c97ee1c0315\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-17.2.2.aar\5851389b877fcf51c2e71c97ee1c0315\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [:firebase_analytics] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\firebase_analytics\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:9:22-65
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:firebase_analytics] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\firebase_analytics\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:12:9-16:19
+MERGED from [:firebase_auth] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\firebase_auth\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_auth] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\firebase_auth\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:8:9-12:19
+MERGED from [:cloud_firestore] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\cloud_firestore\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:8:9-12:19
+MERGED from [:cloud_firestore] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\cloud_firestore\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\firebase_core\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\firebase_core\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:8:9-12:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-17.2.2.aar\2c021320e4ae53803763b4a9d744a461\AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-17.2.2.aar\2c021320e4ae53803763b4a9d744a461\AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-iid-20.0.2.aar\2900f79c1539be52869aa85a082f8e2c\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-iid-20.0.2.aar\2900f79c1539be52869aa85a082f8e2c\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-17.0.0.aar\3552ed7128a34a2229d7960a61127ca2\AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-17.0.0.aar\3552ed7128a34a2229d7960a61127ca2\AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-firestore-21.3.0.aar\b995980af0512abbbae11403f0de4e2c\AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-firestore-21.3.0.aar\b995980af0512abbbae11403f0de4e2c\AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-19.3.0.aar\7d6915a26f38a5b689d7b40eaf4a96dd\AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-19.3.0.aar\7d6915a26f38a5b689d7b40eaf4a96dd\AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-17.2.2.aar\2c021320e4ae53803763b4a9d744a461\AndroidManifest.xml:29:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-19.3.0.aar\7d6915a26f38a5b689d7b40eaf4a96dd\AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-19.3.0.aar\7d6915a26f38a5b689d7b40eaf4a96dd\AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [:firebase_analytics] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\firebase_analytics\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:12:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebaseanalytics.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_analytics] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\firebase_analytics\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:13:13-15:85
+	android:value
+		ADDED from [:firebase_analytics] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\firebase_analytics\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:15:17-82
+	android:name
+		ADDED from [:firebase_analytics] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\firebase_analytics\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:14:17-127
+meta-data#com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_auth] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\firebase_auth\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_auth] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\firebase_auth\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_auth] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\firebase_auth\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:10:17-122
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar
+ADDED from [:cloud_firestore] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\cloud_firestore\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:cloud_firestore] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\cloud_firestore\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:cloud_firestore] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\cloud_firestore\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:10:17-133
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_core] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\firebase_core\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_core] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\firebase_core\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_core] C:\Users\Pranav\Desktop\UWB-Hacks-The-Cloud-2020\uwbhacksthecloud_2020\build\firebase_core\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:10:17-123
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-17.2.2.aar\c73c3616bddea49ef3e60c7fd7c51b2a\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-17.2.2.aar\566751d83e85d5d69f9eb22759057f11\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-17.2.2.aar\566751d83e85d5d69f9eb22759057f11\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-17.2.2.aar\c73c3616bddea49ef3e60c7fd7c51b2a\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-17.2.2.aar\c73c3616bddea49ef3e60c7fd7c51b2a\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-17.2.2.aar\c73c3616bddea49ef3e60c7fd7c51b2a\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-17.2.2.aar\c73c3616bddea49ef3e60c7fd7c51b2a\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-17.2.2.aar\c73c3616bddea49ef3e60c7fd7c51b2a\AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-17.2.2.aar\c73c3616bddea49ef3e60c7fd7c51b2a\AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-17.2.2.aar\566751d83e85d5d69f9eb22759057f11\AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-17.2.2.aar\566751d83e85d5d69f9eb22759057f11\AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-17.2.2.aar\c73c3616bddea49ef3e60c7fd7c51b2a\AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-17.2.2.aar\c73c3616bddea49ef3e60c7fd7c51b2a\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-17.2.2.aar\c73c3616bddea49ef3e60c7fd7c51b2a\AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-17.2.2.aar\c73c3616bddea49ef3e60c7fd7c51b2a\AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-17.2.2.aar\c73c3616bddea49ef3e60c7fd7c51b2a\AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-17.2.2.aar\c73c3616bddea49ef3e60c7fd7c51b2a\AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-17.2.2.aar\c73c3616bddea49ef3e60c7fd7c51b2a\AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-17.2.2.aar\c73c3616bddea49ef3e60c7fd7c51b2a\AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-17.2.2.aar\c73c3616bddea49ef3e60c7fd7c51b2a\AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-17.2.2.aar\c73c3616bddea49ef3e60c7fd7c51b2a\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-17.2.2.aar\c73c3616bddea49ef3e60c7fd7c51b2a\AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-17.2.2.aar\c73c3616bddea49ef3e60c7fd7c51b2a\AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-17.2.2.aar\c73c3616bddea49ef3e60c7fd7c51b2a\AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-17.2.2.aar\c73c3616bddea49ef3e60c7fd7c51b2a\AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-17.2.2.aar\c73c3616bddea49ef3e60c7fd7c51b2a\AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-17.2.2.aar\c73c3616bddea49ef3e60c7fd7c51b2a\AndroidManifest.xml:49:13-87
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-17.2.2.aar\2c021320e4ae53803763b4a9d744a461\AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-17.2.2.aar\2c021320e4ae53803763b4a9d744a461\AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-17.2.2.aar\2c021320e4ae53803763b4a9d744a461\AndroidManifest.xml:31:17-139
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-iid-20.0.2.aar\2900f79c1539be52869aa85a082f8e2c\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-iid-20.0.2.aar\2900f79c1539be52869aa85a082f8e2c\AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-iid-20.0.2.aar\2900f79c1539be52869aa85a082f8e2c\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-iid-20.0.2.aar\2900f79c1539be52869aa85a082f8e2c\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-iid-20.0.2.aar\2900f79c1539be52869aa85a082f8e2c\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-iid-20.0.2.aar\2900f79c1539be52869aa85a082f8e2c\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-iid-20.0.2.aar\2900f79c1539be52869aa85a082f8e2c\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-iid-20.0.2.aar\2900f79c1539be52869aa85a082f8e2c\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-iid-20.0.2.aar\2900f79c1539be52869aa85a082f8e2c\AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-iid-20.0.2.aar\2900f79c1539be52869aa85a082f8e2c\AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-iid-20.0.2.aar\2900f79c1539be52869aa85a082f8e2c\AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\firebase-iid-20.0.2.aar\2900f79c1539be52869aa85a082f8e2c\AndroidManifest.xml:42:25-78
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-17.0.0.aar\3552ed7128a34a2229d7960a61127ca2\AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-17.0.0.aar\3552ed7128a34a2229d7960a61127ca2\AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-17.0.0.aar\3552ed7128a34a2229d7960a61127ca2\AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-17.0.0.aar\3552ed7128a34a2229d7960a61127ca2\AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-17.0.0.aar\3552ed7128a34a2229d7960a61127ca2\AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-17.0.0.aar\3552ed7128a34a2229d7960a61127ca2\AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-17.0.0.aar\3552ed7128a34a2229d7960a61127ca2\AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-17.0.0.aar\3552ed7128a34a2229d7960a61127ca2\AndroidManifest.xml:25:13-85
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-17.0.0.aar\3552ed7128a34a2229d7960a61127ca2\AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-17.0.0.aar\3552ed7128a34a2229d7960a61127ca2\AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-17.0.0.aar\3552ed7128a34a2229d7960a61127ca2\AndroidManifest.xml:37:17-109
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-firestore-21.3.0.aar\b995980af0512abbbae11403f0de4e2c\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-firestore-21.3.0.aar\b995980af0512abbbae11403f0de4e2c\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-firestore-21.3.0.aar\b995980af0512abbbae11403f0de4e2c\AndroidManifest.xml:21:17-111
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-19.3.0.aar\7d6915a26f38a5b689d7b40eaf4a96dd\AndroidManifest.xml:26:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-19.3.0.aar\7d6915a26f38a5b689d7b40eaf4a96dd\AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-19.3.0.aar\7d6915a26f38a5b689d7b40eaf4a96dd\AndroidManifest.xml:29:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-19.3.0.aar\7d6915a26f38a5b689d7b40eaf4a96dd\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-19.3.0.aar\7d6915a26f38a5b689d7b40eaf4a96dd\AndroidManifest.xml:27:13-77
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-play-services-auth-16.0.1.aar\2e49c311ec7490ac7c273f4d10e37d87\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-play-services-auth-16.0.1.aar\2e49c311ec7490ac7c273f4d10e37d87\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-play-services-auth-16.0.1.aar\2e49c311ec7490ac7c273f4d10e37d87\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-play-services-auth-16.0.1.aar\2e49c311ec7490ac7c273f4d10e37d87\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-play-services-auth-16.0.1.aar\2e49c311ec7490ac7c273f4d10e37d87\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-play-services-auth-16.0.1.aar\2e49c311ec7490ac7c273f4d10e37d87\AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-play-services-auth-16.0.1.aar\2e49c311ec7490ac7c273f4d10e37d87\AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-play-services-auth-16.0.1.aar\2e49c311ec7490ac7c273f4d10e37d87\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-play-services-auth-16.0.1.aar\2e49c311ec7490ac7c273f4d10e37d87\AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-base-17.0.0.aar\b2cd2b65aa7fa0b04f19b0a0e885fc22\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-base-17.0.0.aar\b2cd2b65aa7fa0b04f19b0a0e885fc22\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-base-17.0.0.aar\b2cd2b65aa7fa0b04f19b0a0e885fc22\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\play-services-base-17.0.0.aar\b2cd2b65aa7fa0b04f19b0a0e885fc22\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-17.0.0.aar\69ede8f9484e78bbb2e9f23197ac1142\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-17.0.0.aar\69ede8f9484e78bbb2e9f23197ac1142\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Pranav\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-17.0.0.aar\69ede8f9484e78bbb2e9f23197ac1142\AndroidManifest.xml:24:13-58
