@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "169398403765",
+    "firebase_url": "https://uwbhackthecloud2020.firebaseio.com",
+    "project_id": "uwbhackthecloud2020",
+    "storage_bucket": "uwbhackthecloud2020.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169398403765:android:f3d980345bb91f8a9b34fc",
+        "android_client_info": {
+          "package_name": "com.example.uwbhacksthecloud_2020"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169398403765-3nl6686a50c2lb018c53ivssqksadg56.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.uwbhacksthecloud_2020",
+            "certificate_hash": "c248e3c7c649c1c330b873e8646c0d3dd6d765fa"
+          }
+        },
+        {
+          "client_id": "169398403765-arhbht1p0gav2eqfdp3ahj1vlrpcbk3b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYN1higv8pF3ttEzGxAzGhwti378uE0gA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "169398403765-arhbht1p0gav2eqfdp3ahj1vlrpcbk3b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
