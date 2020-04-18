@@ -36,5 +36,6 @@ class HomePageState extends State<HomePage> with SingleTickerProviderStateMixin 
   @override
   Widget build (BuildContext context) {
     //this is the bulk of where the work will be
+    return Scaffold();
   }
 }
