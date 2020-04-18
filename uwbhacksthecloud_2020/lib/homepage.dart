@@ -1,21 +1,4 @@
-<<<<<<< HEAD
-import 'package:flutter/material.dart';
-import 'dart:async';
-//import 'globals.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
-import 'auth.dart';
 
-
-class HomePage extends StatefulWidget {
-  @override
-  _HomePage createState() => _HomePage();
-}
-
-class _HomePage extends State<HomePage> {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold();
-=======
 import'package:flutter/material.dart';
 import 'MatchCard.dart'; //card class will be here
 
@@ -54,6 +37,5 @@ class HomePageState extends State<HomePage> with SingleTickerProviderStateMixin 
   @override
   Widget build (BuildContext context) {
     //this is the bulk of where the work will be
->>>>>>> eab59b6ed8f2a8cc9a06cfc8eeaad540a61a01ab
   }
 }
