@@ -1,12 +1,15 @@
-import'package:flutter/material.dart';
+import 'package:flutter/material.dart';
+import 'package:uwbhacksthecloud_2020/profilepage.dart';
 import 'MatchCard.dart'; //card class will be here
+import 'messagespage.dart';
 
 class HomePage extends StatefulWidget {
   @override
   HomePageState createState() => HomePageState();
 }
 
-class HomePageState extends State<HomePage> with SingleTickerProviderStateMixin {
+class HomePageState extends State<HomePage>
+    with SingleTickerProviderStateMixin {
   Animation cardAnimation, delayedCardAnimation, fabButtonanim, infoAnimation;
   AnimationController controller;
 
@@ -14,10 +17,11 @@ class HomePageState extends State<HomePage> with SingleTickerProviderStateMixin 
   void initState() {
     super.initState();
     //edit as needed for our project
-    controller = AnimationController(duration: Duration(seconds: 2), vsync: this);
+    controller =
+        AnimationController(duration: Duration(seconds: 2), vsync: this);
 
     cardAnimation = Tween(begin: 0.0, end: -0.025).animate(
-      CurvedAnimation(curve: Curves.fastOutSlowIn, parent: controller));
+        CurvedAnimation(curve: Curves.fastOutSlowIn, parent: controller));
 
     delayedCardAnimation = Tween(begin: 0.0, end: -0.05).animate(
         CurvedAnimation(
@@ -41,14 +45,17 @@ class HomePageState extends State<HomePage> with SingleTickerProviderStateMixin 
         animation: controller,
         builder: (BuildContext context, Widget child) {
           return Scaffold(
+            resizeToAvoidBottomPadding: false,
             appBar: new AppBar(
               backgroundColor: Colors.white,
               elevation: 0.0,
               leading: IconButton(
-                icon: Icon(Icons.arrow_back_ios),
+                icon: Icon(Icons.settings),
                 iconSize: 20.0,
                 color: Colors.black,
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => profilePage()));
+                },
               ),
               title: new Text('Developers',
                   textAlign: TextAlign.center,
@@ -59,21 +66,22 @@ class HomePageState extends State<HomePage> with SingleTickerProviderStateMixin 
                       color: Colors.black)),
               actions: <Widget>[
                 Padding(
-                  padding: EdgeInsets.only(right: 8.0),
-                  child: IconButton(
-                    icon: Icon(Icons.chat_bubble),
-                    iconSize: 20.0,
-                    color: Colors.black,
-                    onPressed: () {},
-                  )
-                )
+                    padding: EdgeInsets.only(right: 8.0),
+                    child: IconButton(
+                      icon: Icon(Icons.chat_bubble),
+                      iconSize: 20.0,
+                      color: Colors.black,
+                      onPressed: () {
+                        Navigator.push(context, MaterialPageRoute(builder: (context) => MessagesPage()));
+                      },
+                    ))
               ],
             ),
             body: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 Container(
-                    padding: EdgeInsets.fromLTRB(0.0, 40.0, 20.0, 40.0),
+                    padding: EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 90.0),
                     child: Stack(
                       overflow: Overflow.visible,
                       children: <Widget>[
@@ -100,21 +108,33 @@ class HomePageState extends State<HomePage> with SingleTickerProviderStateMixin 
 //                                borderRadius: BorderRadius.circular(10.0)),
 //                          ),
 //                        ),
-                        Container(
-                          width: 100.0,
-                          height: 120.0,
-                          decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(10.0),
-                              image: DecorationImage(
-                                  image: AssetImage("lib/assets/images/picklerick.jpg"),
-                                  fit: BoxFit.cover)),
+                        Positioned(
+                          top: -50.0,
+                          right: -140.0,
+                          height: 275.0,
+                          width: 275.0,
+                          child: Container(
+                            width: 100.0,
+                            height: 100.0,
+                            decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(10.0),
+                                image: DecorationImage(
+                                    image: AssetImage(
+                                        "lib/assets/images/omarpro.jpeg"),
+                                    //replace with network image later
+
+                                    fit: BoxFit.cover)),
+                          ),
                         ),
                         Positioned(
-                          top: 320.0,
-                          left: 15.0,
+                          top: 50.0,
+                          right: -185.0,
+                          //padding: EdgeInsets.fromLTRB(0.0, 80.0, 0.0, 0.0),
                           child: Container(
-                            transform: Matrix4.translationValues(0.0, infoAnimation.value * devHeight, 0.0),
-                            width: 270.0,
+                            padding: EdgeInsets.fromLTRB(10.0, 0.0, 0.0, 0.0),
+                            transform: Matrix4.translationValues(
+                                0.0, 200.0, 0.0),
+                            width: 370.0,
                             height: 90.0,
                             decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(10.0),
@@ -126,14 +146,14 @@ class HomePageState extends State<HomePage> with SingleTickerProviderStateMixin 
                                       spreadRadius: 2.0)
                                 ]),
                             child: Container(
-                              padding: EdgeInsets.all(7.0),
+                              //padding: EdgeInsets.fromLTRB(0.0, 80.0, 0.0, 0.0),
                               child: Column(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: <Widget>[
                                   Row(
                                     children: <Widget>[
                                       Text(
-                                        'Simp God',
+                                        'Omar Iqbal',
                                         style: TextStyle(
                                             fontFamily: 'Montserrat',
                                             fontSize: 20.0),
@@ -141,7 +161,7 @@ class HomePageState extends State<HomePage> with SingleTickerProviderStateMixin 
                                       SizedBox(width: 4.0),
                                       SizedBox(width: 110.0),
                                       Text(
-                                        'C++, Java, Python, C#',
+                                        'C++, Java, Python, C#, Dart',
                                         style: TextStyle(
                                             fontFamily: 'Montserrat',
                                             fontSize: 15.0,
@@ -153,7 +173,7 @@ class HomePageState extends State<HomePage> with SingleTickerProviderStateMixin 
                                   Row(
                                     children: <Widget>[
                                       Text(
-                                        'ea sports it\'s in the game.',
+                                        'Cloud Computing, Machine Learning.',
                                         style: TextStyle(
                                             fontFamily: 'Montserrat',
                                             fontSize: 15.0,
@@ -165,21 +185,26 @@ class HomePageState extends State<HomePage> with SingleTickerProviderStateMixin 
                               ),
                             ),
                           ),
-                        )
+                        ),
+                        Text( '' ),
                       ],
                     )),
                 Container(
-                  transform: Matrix4.translationValues(0.0, fabButtonanim.value * devHeight, 0.0),
+                  padding: EdgeInsets.fromLTRB(0.0,250.0,0.0,0.0),
+                  transform: Matrix4.translationValues(
+                      0.0, fabButtonanim.value * devHeight, 0.0),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: <Widget>[
                       FloatingActionButton(
+                        heroTag: "btn1",
                         elevation: 0.0,
                         onPressed: () {}, //x button
                         child: Icon(Icons.close, color: Colors.black),
                         backgroundColor: Colors.white,
                       ),
                       FloatingActionButton(
+                        heroTag: "btn2",
                         elevation: 0.0,
                         onPressed: () {}, //like button
                         child: Icon(Icons.favorite, color: Colors.pink),
