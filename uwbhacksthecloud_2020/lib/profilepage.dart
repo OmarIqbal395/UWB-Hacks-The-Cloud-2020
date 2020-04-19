@@ -79,7 +79,7 @@ class profilePageState extends State<profilePage> {
       appBar: AppBar(
         elevation: 0.0,
         centerTitle: true,
-        //backgroundColor: Colors.white,
+        backgroundColor: Colors.white,
         leading: Padding(
           padding: EdgeInsets.only(left: 12),
           child: IconButton(
@@ -106,7 +106,7 @@ class profilePageState extends State<profilePage> {
             color: Colors.blueAccent,
           ),
           ClipPath(
-            child: Container(color: Colors.black),
+            child: Container(color: Colors.lightBlueAccent),
             clipper: getClipper(),
           ),
           Positioned(
