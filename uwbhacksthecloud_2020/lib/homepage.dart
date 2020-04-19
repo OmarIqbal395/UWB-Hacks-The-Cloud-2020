@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:uwbhacksthecloud_2020/profilepage.dart';
-import 'MatchCard.dart'; //card class will be here
+import 'globals.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'messagespage.dart';
 
 class HomePage extends StatefulWidget {
@@ -12,6 +13,69 @@ class HomePageState extends State<HomePage>
     with SingleTickerProviderStateMixin {
   Animation cardAnimation, delayedCardAnimation, fabButtonanim, infoAnimation;
   AnimationController controller;
+
+  List<String> imageUrlList = List<String>();
+  List<String> descList = List<String>();
+  List<bool> likedList = List<bool>();
+  List<String> titleList = List<String>();
+  List<String> devList = List<String>();
+  List<String> langList = List<String>();
+
+  int index = 0;
+
+  void loadLangList() async {
+    QuerySnapshot querySnapshot = await databaseReference.collection('projects').getDocuments();
+    List<DocumentSnapshot> list = querySnapshot.documents;
+
+    for(DocumentSnapshot doc in list) {
+      langList.add(doc['languages']);
+    }
+  }
+
+  void loadProjectImages() async {
+    QuerySnapshot querySnapshot = await databaseReference.collection('projects').getDocuments();
+    List<DocumentSnapshot> list = querySnapshot.documents;
+
+    for(DocumentSnapshot doc in list) {
+      imageUrlList.add(doc['url']);
+    }
+  }
+
+  void loadDevs() async {
+    QuerySnapshot querySnapshot = await databaseReference.collection('projects').getDocuments();
+    List<DocumentSnapshot> list = querySnapshot.documents;
+
+    for(DocumentSnapshot doc in list) {
+      devList.add(doc['project owner']);
+    }
+  }
+
+  void loadTitles() async {
+    QuerySnapshot querySnapshot = await databaseReference.collection('projects').getDocuments();
+    List<DocumentSnapshot> list = querySnapshot.documents;
+
+    for(DocumentSnapshot doc in list) {
+      titleList.add(doc['title']);
+    }
+  }
+
+  void loadLikes() async {
+    QuerySnapshot querySnapshot = await databaseReference.collection('projects').getDocuments();
+    List<DocumentSnapshot> list = querySnapshot.documents;
+
+    for(DocumentSnapshot doc in list) {
+      likedList.add(doc['liked']);
+    }
+  }
+
+  void loadDescs() async {
+    QuerySnapshot querySnapshot = await databaseReference.collection('projects').getDocuments();
+    List<DocumentSnapshot> list = querySnapshot.documents;
+
+    for(DocumentSnapshot doc in list) {
+      descList.add(doc['description']);
+    }
+  }
 
   @override
   void initState() {
@@ -37,8 +101,31 @@ class HomePageState extends State<HomePage>
         parent: controller));
   }
 
+  void like(String id) {
+    try {
+      databaseReference
+          .collection('projects')
+          .document(id)
+          .updateData({'liked': true});
+    } catch (e) {
+      print(e.toString());
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
+    loadProjectImages();
+    loadDescs();
+    loadDevs();
+    loadLikes();
+    loadTitles();
+    loadLangList();
+
+
+    if (index > likedList.length) {
+      index = 0;
+    }
+
     final devHeight = MediaQuery.of(context).size.height;
     controller.forward();
     return new AnimatedBuilder(
@@ -85,29 +172,6 @@ class HomePageState extends State<HomePage>
                     child: Stack(
                       overflow: Overflow.visible,
                       children: <Widget>[
-//                        Positioned(
-//                          left: 20.0,
-//                          child: Container(
-//                            transform: Matrix4.translationValues(0.0, delayedCardAnimation.value * devHeight, 0.0),
-//                            width: 260.0,
-//                            height: 400.0,
-//                            decoration: BoxDecoration(
-//                                color: Colors.amber,
-//                                borderRadius: BorderRadius.circular(10.0)),
-//                          ),
-//                        ),
-//                        Positioned(
-//
-//                          left: 10.0,
-//                          child: Container(
-//                            transform: Matrix4.translationValues(0.0, cardAnimation.value * devHeight, 0.0),
-//                            width: 280.0,
-//                            height: 400.0,
-//                            decoration: BoxDecoration(
-//                                color: Colors.blue,
-//                                borderRadius: BorderRadius.circular(10.0)),
-//                          ),
-//                        ),
                         Positioned(
                           top: -50.0,
                           right: -140.0,
@@ -119,10 +183,8 @@ class HomePageState extends State<HomePage>
                             decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(10.0),
                                 image: DecorationImage(
-                                    image: AssetImage(
-                                        "lib/assets/images/omarpro.jpeg"),
-                                    //replace with network image later
-
+                                    image: NetworkImage(
+                                        imageUrlList[index]),
                                     fit: BoxFit.cover)),
                           ),
                         ),
@@ -152,32 +214,44 @@ class HomePageState extends State<HomePage>
                                 children: <Widget>[
                                   Row(
                                     children: <Widget>[
-                                      Text(
-                                        'Omar Iqbal',
-                                        style: TextStyle(
-                                            fontFamily: 'Montserrat',
-                                            fontSize: 20.0),
+                                      Flexible(
+                                        child: Text(
+                                          devList[index],
+                                          overflow: TextOverflow.ellipsis,
+                                          softWrap: false,
+                                          style: TextStyle(
+                                              fontFamily: 'Montserrat',
+                                              fontSize: 20.0),
+                                        ),
                                       ),
                                       SizedBox(width: 4.0),
                                       SizedBox(width: 110.0),
-                                      Text(
-                                        'C++, Java, Python, C#, Dart',
-                                        style: TextStyle(
-                                            fontFamily: 'Montserrat',
-                                            fontSize: 15.0,
-                                            color: Colors.grey),
+                                      Flexible(
+                                        child: Text(
+                                          langList[index],
+                                          overflow: TextOverflow.ellipsis,
+                                          softWrap: false,
+                                          style: TextStyle(
+                                              fontFamily: 'Montserrat',
+                                              fontSize: 15.0,
+                                              color: Colors.grey),
+                                        ),
                                       ),
                                     ],
                                   ),
                                   SizedBox(height: 9.0),
                                   Row(
                                     children: <Widget>[
-                                      Text(
-                                        'Cloud Computing, Machine Learning.',
-                                        style: TextStyle(
-                                            fontFamily: 'Montserrat',
-                                            fontSize: 15.0,
-                                            color: Colors.grey),
+                                      Flexible(
+                                        child: Text(
+                                          titleList[index],
+                                          overflow: TextOverflow.ellipsis,
+                                          softWrap: false,
+                                          style: TextStyle(
+                                              fontFamily: 'Montserrat',
+                                              fontSize: 15.0,
+                                              color: Colors.grey),
+                                        ),
                                       )
                                     ],
                                   )
@@ -199,14 +273,25 @@ class HomePageState extends State<HomePage>
                       FloatingActionButton(
                         heroTag: "btn1",
                         elevation: 0.0,
-                        onPressed: () {}, //x button
+                        onPressed: () {
+                          index++;
+                          setState(() {
+                            build(context);
+                          });
+                        }, //x button
                         child: Icon(Icons.close, color: Colors.black),
                         backgroundColor: Colors.white,
                       ),
                       FloatingActionButton(
                         heroTag: "btn2",
                         elevation: 0.0,
-                        onPressed: () {}, //like button
+                        onPressed: () {
+                          likedList[index] = true;
+                          index++;
+                          setState(() {
+                            build(context);
+                          });
+                        }, //like button
                         child: Icon(Icons.favorite, color: Colors.pink),
                         backgroundColor: Colors.white,
                       )
@@ -219,3 +304,4 @@ class HomePageState extends State<HomePage>
         });
   }
 }
+
