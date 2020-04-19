@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:uwbhacksthecloud_2020/profilepage.dart';
 import 'globals.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'MatchCard.dart'; //card class will be here
 import 'messagespage.dart';
 
 class HomePage extends StatefulWidget {
@@ -125,7 +126,6 @@ class HomePageState extends State<HomePage>
     if (index > likedList.length) {
       index = 0;
     }
-
     final devHeight = MediaQuery.of(context).size.height;
     controller.forward();
     return new AnimatedBuilder(
@@ -304,4 +304,3 @@ class HomePageState extends State<HomePage>
         });
   }
 }
-
