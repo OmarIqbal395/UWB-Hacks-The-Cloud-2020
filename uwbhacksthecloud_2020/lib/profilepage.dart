@@ -76,6 +76,28 @@ class profilePageState extends State<profilePage> {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
+      appBar: AppBar(
+        elevation: 0.0,
+        centerTitle: true,
+        //backgroundColor: Colors.white,
+        leading: Padding(
+          padding: EdgeInsets.only(left: 12),
+          child: IconButton(
+            icon: Icon(Icons.arrow_back, color: Colors.black),
+            onPressed: () {
+              Navigator.pop(context);
+            },
+          ),
+        ),
+        title: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              Icon(Icons.person, color: Colors.black),
+              Text(' Profile', style: TextStyle(color: Colors.black))
+            ]),
+        actions: <Widget>[
+        ],
+      ),
       body: new Stack(
         children: <Widget>[
           Container(
