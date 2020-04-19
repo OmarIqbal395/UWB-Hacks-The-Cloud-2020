@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 
 class profilePage extends StatefulWidget {
   @override
@@ -6,12 +7,21 @@ class profilePage extends StatefulWidget {
 }
 
 class profilePageState extends State<profilePage> {
-  var _name = 'Quam Nghiem';
-  var _quote = 'Will Code For Money';
-  var _language = 'C#, Java, C++, Javascript';
+  var _name = 'User';
+  var _quote = 'About you';
+  var _language = 'N/A';
+  var _image =
+      'https://brightguyfilms.com/wp-content/uploads/2016/06/avatar-blank-male.png';
+  var _email = 'My contact info';
+
+  @override
+  void initState() {
+    super.initState();
+    getData();
+  }
 
   createPopUp(BuildContext context) {
-    TextEditingController newName = TextEditingController();
+//    TextEditingController newEmail = TextEditingController();
     TextEditingController newQuote = TextEditingController();
     TextEditingController newLanguage = TextEditingController();
 
@@ -25,10 +35,10 @@ class profilePageState extends State<profilePage> {
                 mainAxisSize: MainAxisSize.min,
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: <Widget>[
-                  TextField(
-                    decoration: InputDecoration(hintText: 'Enter name'),
-                    controller: newName,
-                  ),
+//                  TextField(
+//                    decoration: InputDecoration(hintText: 'Enter email'),
+//                    controller: newEmail,
+//                  ),
                   TextField(
                     decoration: InputDecoration(hintText: 'Enter quote'),
                     controller: newQuote,
@@ -45,15 +55,16 @@ class profilePageState extends State<profilePage> {
                 elevation: 5.0,
                 child: Text('Submit'),
                 onPressed: () {
-                  if (newName.text.toString().isNotEmpty) {
-                    _name = newName.text.toString();
-                  }
                   if (newQuote.text.toString().isNotEmpty) {
                     _quote = newQuote.text.toString();
                   }
                   if (newLanguage.text.toString().isNotEmpty) {
                     _language = newLanguage.text.toString();
                   }
+//                  if (newEmail.text.toString().isNotEmpty) {
+//                    _email = newEmail.text.toString();
+//                  }
+                  updateData(_quote, _language);
                   Navigator.of(context).pop();
                 },
               )
@@ -87,9 +98,7 @@ class profilePageState extends State<profilePage> {
                       decoration: BoxDecoration(
                           color: Colors.white,
                           image: DecorationImage(
-                              image: NetworkImage(
-                                  'https://pbs.twimg.com/profile_images/706187387290963969/85luv8tB_400x400.jpg'),
-                              fit: BoxFit.cover),
+                              fit: BoxFit.cover, image: NetworkImage(_image)),
                           borderRadius: BorderRadius.all(Radius.circular(75.0)),
                           boxShadow: [
                             BoxShadow(blurRadius: 5.0, color: Colors.black)
@@ -122,6 +131,16 @@ class profilePageState extends State<profilePage> {
                     _language,
                     style: TextStyle(fontSize: 17.0),
                   ),
+                  SizedBox(height: 15.0),
+                  Text(
+                    "My contact info:",
+                    style:
+                        TextStyle(fontSize: 17.0, fontWeight: FontWeight.bold),
+                  ),
+                  Text(
+                    _email,
+                    style: TextStyle(fontSize: 17.0),
+                  ),
                 ],
               ))
         ],
@@ -134,6 +153,31 @@ class profilePageState extends State<profilePage> {
         child: Icon(Icons.edit),
       ),
     );
+  }
+
+  void getData() async {
+    DocumentSnapshot temp = await Firestore.instance
+        .collection('users')
+        .document('GxA91zTAXAOA285fNQ0YUcsW1LD2')
+        .get();
+    String imageUrl = temp['photoURL'];
+    String name = temp['displayName'];
+    _image = imageUrl;
+    _name = name;
+    _quote = temp['summary'];
+    _language = temp['language'];
+    _email = temp['email'];
+  }
+
+  void updateData(String summary, String language) {
+    try {
+      Firestore.instance
+          .collection('users')
+          .document('GxA91zTAXAOA285fNQ0YUcsW1LD2')
+          .updateData({'language': language, 'summary': summary});
+    } catch (e) {
+      print(e.toString());
+    }
   }
 }
 
