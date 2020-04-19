@@ -287,6 +287,8 @@ class HomePageState extends State<HomePage>
                         elevation: 0.0,
                         onPressed: () {
                           likedList[index] = true;
+                          String theId = (index+1).toString();
+                          like(theId);
                           index++;
                           setState(() {
                             build(context);
