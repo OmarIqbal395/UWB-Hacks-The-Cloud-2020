@@ -1,2 +1,2 @@
-# UWB-Hacks-The-Cloud-2020
-Tinder for virgins. Enough said.
+# CollabWare (Project for UWB-Hacks-The-Cloud-2020)
+A networking mobile app for developers with tinder-like functionality.
