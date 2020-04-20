@@ -3,6 +3,12 @@
 # CollabWare (Project for UWB-Hacks-The-Cloud-2020)
 A networking mobile app for developers with tinder-like functionality.
 
+## Contributor
+Austin Landas
+Omar Iqbal
+Quan Nghiem
+Pranav Sakthivel
+
 ## Inspiration
 We were inspired to do this because we wanted to find new ways to network and collaborate with other software developers. This idea came about a while ago, and we decided to stick with it when COVID-19 resulted in a stay at home order. A mobile app such as this allows developers to find new people to meet and work with in the safety of their home.
 
