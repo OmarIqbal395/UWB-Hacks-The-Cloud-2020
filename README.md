@@ -4,9 +4,9 @@
 A networking mobile app for developers with tinder-like functionality.
 
 ## Contributor
-Austin Landas
-Omar Iqbal
-Quan Nghiem
+Austin Landas, 
+Omar Iqbal, 
+Quan Nghiem, 
 Pranav Sakthivel
 
 ## Inspiration
