@@ -28,3 +28,7 @@ The chat page shows a list of developers that you pressed like on.
 
 ## What's next for CollabWare
 CollabWare can implement more chat functionality, hold more users in the home page, and perhaps in the future, replicate the functionality of Tinder further by implementing a swipe feature instead of a button feature.
+
+## WE WON!
+We won the most innovative prize for the hackathon.
+![GitHub Logo](https://media.discordapp.net/attachments/684175502340390963/702339018666410055/unknown.png?width=1307&height=677)
